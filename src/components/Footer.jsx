@@ -3,12 +3,12 @@ import React from 'react'
 function Footer() {
     return (
         <footer className='bg-[#226428] text-white p-10 flex flex-col justify-center items-center'>
-            <section className='flex justify-between flex-wrap w-[1200PX] px-10 border-b-[1px]'>
-                <article className='flex flex-col'>
+            <section className='flex justify-between flex-wrap w-[1200PX] px-10 border-b-[1px] pb-10'>
+                <article className='flex flex-col gap-7'>
                     <h4 className='text-2xl'>
                         Nuestra Empresa
                     </h4>
-                    <ul className='flex flex-col indent-5'>
+                    <ul className='flex flex-col gap-5 indent-5'>
                         <li className=''><a className='text-base text-white' href="">Inicio</a></li>
                         <li className=''><a className='text-base text-white' href="">Nosotros</a></li>
                         <li className=''><a className='text-base text-white' href="">Circuitos</a></li>
@@ -18,11 +18,11 @@ function Footer() {
                     </ul>
                 </article>
 
-                <article className='flex flex-col'>
+                <article className='flex flex-col gap-7'>
                     <h4 className='text-2xl'>
                         Nuestros Tours
                     </h4>
-                    <ul className='flex flex-col indent-5'>
+                    <ul className='flex flex-col gap-5 indent-5'>
                         <li className=''><a className='text-base text-white' href="">A lo largo de los Andes</a></li>
                         <li className=''><a className='text-base text-white' href="">Aventura Inca</a></li>
                         <li className=''><a className='text-base text-white' href="">Del Pacífico al Amazonas</a></li>
@@ -34,11 +34,11 @@ function Footer() {
                     </ul>
                 </article>
 
-                <article className='flex flex-col'>
+                <article className='flex flex-col gap-7'>
                     <h4 className='text-2xl'>
                         Otras Experiencias
                     </h4>
-                    <ul className='flex flex-col indent-5'>
+                    <ul className='flex flex-col gap-5 indent-5'>
                         <li className=''><a className='text-base text-white' href="">Circuitos</a></li>
                         <li className=''><a className='text-base text-white' href="">Nosotros</a></li>
                         <li className=''><a className='text-base text-white' href="">Inicio</a></li>
@@ -48,11 +48,11 @@ function Footer() {
                     </ul>
                 </article>
 
-                <article className='flex-col'>
+                <article className='flex flex-col gap-7'>
                     <h4 className='text-2xl'>
                         Contacto
                     </h4>
-                    <ul className='flex flex-col indent-5'>
+                    <ul className='flex flex-col gap-5 indent-5'>
                         <li className=''><a className='text-base text-white' href="">Central: +51 981 310 819</a></li>
                         <li className=''><a className='text-base text-white' href="">Whatsapp: +51 981 310 819</a></li>
                         <li className=''><a className='text-base text-white' href="">info@pachamamaturismo.org</a></li>
